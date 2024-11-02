@@ -1,0 +1,16 @@
+---
+layout:       post
+title:        "第一篇文章-the First"
+author:       "xiaowan"
+header-style: text
+catalog:      true
+tags:
+    - web
+    - Java Script
+---
+
+>这是我的个人blog第一篇文章
+
+仅用作测试，谢谢
+
+-xiaowan 一位初中生，爱好一些科技+电子产品
