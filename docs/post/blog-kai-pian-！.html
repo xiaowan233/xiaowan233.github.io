@@ -10,13 +10,9 @@
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
     </script>
-<meta name="description" content="blog搭建完成，自用域名[小玩同学的blog](https://web.xiaowan233.us.kg/ '小玩同学的blog')
-![3E60269D-26C3-41a3-BAD0-603375EE4962](https://github.com/user-attachments/assets/529bd590-0cd7-4856-84eb-3a97199b95d3)
-。">
+<meta name="description" content="blog搭建完成，还挺好用哈。">
 <meta property="og:title" content="blog开篇！">
-<meta property="og:description" content="blog搭建完成，自用域名[小玩同学的blog](https://web.xiaowan233.us.kg/ '小玩同学的blog')
-![3E60269D-26C3-41a3-BAD0-603375EE4962](https://github.com/user-attachments/assets/529bd590-0cd7-4856-84eb-3a97199b95d3)
-。">
+<meta property="og:description" content="blog搭建完成，还挺好用哈。">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://xiaowan233.github.io/post/blog-kai-pian-%EF%BC%81.html">
 <meta property="og:image" content="https://avatars.githubusercontent.com/u/178019203?v=4">
@@ -77,8 +73,10 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
 </div>
     <div id="content">
-<div class="markdown-body" id="postBody"><p>blog搭建完成，自用域名<a href="https://web.xiaowan233.us.kg/" title="小玩同学的blog" rel="nofollow">小玩同学的blog</a><br>
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/529bd590-0cd7-4856-84eb-3a97199b95d3"><img src="https://github.com/user-attachments/assets/529bd590-0cd7-4856-84eb-3a97199b95d3" alt="3E60269D-26C3-41a3-BAD0-603375EE4962" style="max-width: 100%;"></a></p></div>
+<div class="markdown-body" id="postBody"><p>blog搭建完成，还挺好用哈。<br>
+自用域名<a href="https://web.xiaowan233.us.kg/" title="小玩同学的blog" rel="nofollow">小玩同学的blog</a>-web.xiaowan233.us.kg<br>
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/529bd590-0cd7-4856-84eb-3a97199b95d3"><img src="https://github.com/user-attachments/assets/529bd590-0cd7-4856-84eb-3a97199b95d3" alt="3E60269D-26C3-41a3-BAD0-603375EE4962" style="max-width: 100%;"></a><br>
+耗时2h完成</p></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
@@ -137,7 +135,11 @@ console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n","padding:5px 
 <script>
 document.getElementById("pathHome").setAttribute("d",IconList["home"]);
 document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
-
+cmButton=document.getElementById("cmButton");
+    span=document.createElement("span");
+    span.setAttribute("class","Counter");
+    span.innerHTML="1";
+    cmButton.appendChild(span);
 
 
 function openComments(){
