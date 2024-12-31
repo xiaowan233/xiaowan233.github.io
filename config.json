@@ -2,5 +2,11 @@
     "title":"小玩同学的博客",
     "subTitle":"一位喜欢搞点小玩意的初中生",
     "avatarUrl":"https://avatars.githubusercontent.com/u/178019203?v=4",
+    "homeUrl":"http://web.xiaowan233.us.kg",
+    "startSite":"12/29/2024",
+    "UTC":8,
+    "onePageListNum":10,
+    "bottomText":"转载请注明出处",
+    "i18n":"CN",
     "GMEEK_VERSION":"last"
 }
